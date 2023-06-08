@@ -5,7 +5,7 @@
 //sample
 //magaphone('hello Wolrd') => "HELLO WORLD"
 
-const megaphone =(words ="hola") =>{
+const megaphone =(words ="hola") => {
     return words.toUpperCase();
 }
 
@@ -15,4 +15,4 @@ const wisper =(words ="hola") =>{
     return words.toLowerCase();
 }
 
-console.log(wisper("HOW DARE YOU"))
+console.log(wisper("HOW DARE YOU"));
